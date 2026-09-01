@@ -1,9 +1,96 @@
-.banner-wrapper{
-    padding: 0 !important;
-    max-width: 100% !important;
-    background: #ededed;
+.banner-wrapper {
+  padding: 0 !important;
+  max-width: 100% !important;
+  background: #ededed;
 }
-.banner-wrapper h4,p{
-  padding: 0 32px;
+
+.banner {
+  width: 100%;
+}
+
+.banner-container {
+  width: 100%;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.banner-wrapper img,
+.banner-image img,
+.banner picture img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.banner-content {
   max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0 60px;
+}
+
+.banner-title h1,
+.banner-title h2,
+.banner-title h3,
+.banner-title h4 {
+  max-width: 1200px;
+  margin: 0 auto 16px;
+  padding: 0 32px;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.banner-description p {
+  max-width: 1200px;
+  margin: 0 auto 24px;
+  padding: 0 32px;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.banner-actions {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.banner-actions a {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #1473e6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.banner-actions a:hover {
+  background: #0d66d0;
+}
+
+@media (max-width: 768px) {
+  .banner-title h1,
+  .banner-title h2,
+  .banner-title h3,
+  .banner-title h4,
+  .banner-description p,
+  .banner-actions {
+    padding: 0 20px;
+  }
+
+  .banner-title h1,
+  .banner-title h2,
+  .banner-title h3,
+  .banner-title h4 {
+    font-size: 2rem;
+  }
+
+  .banner-wrapper img,
+  .banner-image img,
+  .banner picture img {
+    max-height: 300px;
+  }
 }
