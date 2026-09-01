@@ -1,0 +1,9 @@
+.banner-wrapper{
+  padding:0;
+  margin:0;
+  background:#ededed;
+}
+.banner-wrapper h4{
+  padding: 0 32px;
+  max-width: 1200px;
+}
